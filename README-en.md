@@ -4,7 +4,7 @@
 
 A pink-themed Typora theme designed for an elegant writing experience—cute but not noisy, minimal yet rich in details.
 
-## 📸 Preview
+## Preview
 
 ![Preview](img/preview-en.png)
 
