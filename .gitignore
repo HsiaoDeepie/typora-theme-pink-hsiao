@@ -1,0 +1,11 @@
+*.code-workspace
+.vscode/
+
+test/
+
+.DS_Store
+thumbs.db
+
+.idea/
+
+.marscode
