@@ -7,6 +7,7 @@ A pink-themed Typora theme designed for an elegant writing experience—cute but
 ## Preview
 
 ![Preview](img/preview-en.png)
+![Preview2](img/preview2-en.png)
 
 ## Features
 - **Cute**: Soft pink color scheme with just the right amount of accents
