@@ -575,3 +575,230 @@ header, .context-menu, .megamenu-content, footer {
 .html-for-mac .context-menu {
     --item-hover-bg-color: #E6F0FE;
 }
+
+
+/* ========================== Highlight Style ========================== */
+/* Based on VSCode Light Modern theme */
+
+.code-tooltip {
+    color: var(--text-color) !important;
+    border-radius: 5px;
+}
+.ty-input:focus {
+    border-color: #ff6b9d !important;
+}
+
+
+.CodeMirror {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.CodeMirror-gutters {
+  background: #F3F3F3 !important;
+  color: #616161 !important;
+  border: none !important;
+  border-right: 1px solid #E0E0E0 !important;
+}
+
+.CodeMirror-guttermarker,
+.CodeMirror-guttermarker-subtle,
+.CodeMirror-linenumber {
+  color: #616161 !important;
+}
+
+.CodeMirror-cursor {
+  border-left: 2px solid #000000 !important;
+}
+
+.CodeMirror-selected, 
+.CodeMirror-selectedtext {
+    background: #ADD6FF !important;
+    color: #000000 !important;
+}
+
+.CodeMirror-line::selection,
+.CodeMirror-line>span::selection,
+.CodeMirror-line>span>span::selection {
+  background: #ADD6FF !important;
+}
+
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line>span::-moz-selection,
+.CodeMirror-line>span>span::-moz-selection {
+  background: #ADD6FF !important;
+}
+
+
+.cm-keyword {
+  color: #0000FF !important;
+}
+
+.cm-boolean {
+  color: #0000FF !important;
+}
+
+.cm-number {
+  color: #098658 !important;
+}
+
+.cm-def {
+  color: #001080 !important;
+}
+
+.cm-variable {
+  color: #001080 !important;
+}
+
+.cm-variable-2 {
+  color: #001080 !important;
+}
+
+.cm-variable-3 {
+  color: #0000FF !important;
+}
+
+.cm-property {
+  color: #001080 !important;
+}
+
+.cm-attribute {
+  color: #E50000 !important;
+}
+
+.cm-operator {
+  color: #000000 !important;
+}
+
+.cm-string {
+  color: #A31515 !important;
+}
+
+.cm-string-2 {
+  color: #A31515 !important;
+}
+
+.cm-string.cm-string-escape {
+  color: #EE0000 !important;
+}
+
+.cm-string.cm-string-regexp {
+  color: #811F3F !important;
+}
+
+.cm-comment {
+  color: #008000 !important;
+  font-style: italic !important;
+}
+
+.cm-tag {
+  color: #800000 !important;
+}
+
+.cm-meta {
+  color: #267F99 !important;
+}
+
+.cm-builtin {
+  color: #267F99 !important;
+}
+
+.cm-type {
+  color: #267F99 !important;
+}
+
+.cm-bracket {
+  color: #000000 !important;
+}
+
+.cm-punctuation {
+  color: #000000 !important;
+}
+
+.cm-punctuation.cm-punctuation-list_marker {
+  color: #0451A5 !important;
+}
+
+.cm-function {
+  color: #795E26 !important;
+}
+
+.cm-qualifier {
+  color: #795E26 !important;
+}
+
+.cm-header {
+  color: #005FB8 !important;
+}
+
+.cm-em {
+  color: #005FB8 !important;
+  font-style: italic !important;
+  font-weight: 700 !important;
+}
+
+.cm-error {
+  color: #FFFFFF !important;
+  background-color: #E51400 !important;
+}
+
+.CodeMirror-matchingbracket {
+  background-color: rgba(0, 120, 215, 0.1) !important;
+  outline: 1px solid rgba(0, 120, 215, 0.5) !important;
+}
+
+.CodeMirror-nonmatchingbracket {
+  background-color: rgba(228, 0, 0, 0.1) !important;
+  outline: 1px solid rgba(228, 0, 0, 0.5) !important;
+}
+
+.CodeMirror-searching {
+  background-color: #FFEB3B !important;
+  color: #000000 !important;
+}
+
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+  background-color: #F3F3F3 !important;
+}
+
+.CodeMirror-foldmarker {
+  color: #616161 !important;
+  text-shadow: none !important;
+}
+
+.CodeMirror-foldgutter-open:after,
+.CodeMirror-foldgutter-folded:after {
+  color: #616161 !important;
+}
+
+.CodeMirror-statusbar {
+  background-color: #F3F3F3 !important;
+  color: #616161 !important;
+  border-top: 1px solid #E0E0E0 !important;
+}
+
+.CodeMirror-placeholder {
+  color: #8E8E8E !important;
+  opacity: 0.6;
+}
+
+.CodeMirror-hints {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E0E0E0 !important;
+  color: #000000 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.CodeMirror-hint {
+  color: #000000 !important;
+}
+
+.CodeMirror-hint-active {
+  background-color: #0078D4 !important;
+  color: #FFFFFF !important;
+}
+
+.CodeMirror-activeline-gutter {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
